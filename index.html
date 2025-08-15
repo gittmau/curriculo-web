@@ -1,0 +1,116 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Curriculo</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap" rel="stylesheet">	
+
+    <style>
+
+    	.container{display:none}
+
+    	#box-loading{display: flex;align-items: center;justify-content: center;height: 100vh}
+           
+        #loading{width:50px;height:50px;border:6px solid #ccc;border-radius:50%;border-top-color:red;animation:girar 1s infinite}
+
+
+       @keyframes girar{
+    
+	     to{transform:rotate(1turn)}
+       }
+
+   </style>
+</head>
+
+
+
+<body style="background:#A9CAC0;margin: 0;" onload="carregaPage()">
+
+ <div id="box-loading">	
+
+	 <div id="loading"></div>
+ </div>
+
+
+<center class="container" style="width:100%;table-layout: fixed;background:#e7e7e7;padding:10px 0px;font-family:'Raleway', sans-serif;">
+
+    <table width="95%" style="max-width: 600px;background:white">
+
+
+    	<tr>
+    		<td align="center" style="padding:25px 0px;"> <img src="https://raw.githubusercontent.com/gittmau/images/refs/heads/main/faceCirc.png" alt="foto-mauricio" style="width:30%;border: 5px solid #ccc;border-radius:50%;" alt=""> </td>
+    	</tr>
+
+    	<tr>
+    		<td align="center"> MAURICIO <br> HONORATO <hr style="width:40%;">   <span style="font-size:0.9em;">Desenvolvedor Web</span> </td>
+    	</tr>
+
+
+    	<tr>
+    		<td align="center"> <p style="text-align: center;font-weight: bold">CONTATO</p> <hr style="width:40%;"> Fone:  <a href="tel: +5511995521110"> (11) 99 552 1110 </a> <br> <br> E-mail: <a href="mailto:mauhonorat@gmail.com">mauhonorat@gmail.com</a> </td>
+
+    	</tr>
+
+    	<tr>
+	       <td align="center"> <p style="font-weight: bold;">ENDEREÇO <hr style="width:40%;">  <br> <span style="color: #222">  Vila Curuçá <br> São Miguel PTA <br> São Paulo </span></p></td>
+	  </tr>
+
+
+	   <tr>
+	       <td align="center"> <p style="font-weight: bold;">FORMAÇÃO ACADÊMICA</p> <hr style="width:40%;"> </td>
+	  </tr>
+
+	  <tr>
+         <td align="center"> <p style="color: #333">Ensino médio completo <br> <br>E.E.P.S.G Marcelo Tulman Neto <br> <br>
+         	Informática (Windows,Word,Excel,Power point)  <br> <br> Web design (PhotoShop e Illustrator) <br><br>
+         	Programador web (Html, Css e JavaScript) </p>
+         </td>
+     </tr>
+
+
+     <tr>
+	       <td align="center"> <p style="font-weight: bold"> EXPERIÊNCIA <p> <hr style="width:40%;">  </td>
+	  </tr>
+
+	  <tr>
+	      <td align="center">
+	       	<p style="color: #222">--- Freelancer ---</p>
+	       	<a href="https://maudev.com.br/" target="_blank" style="color:#0000EE;text-decoration: underline"> Portfólio pessoal </a><br><br>
+					
+	       	<a href="https://gittmau.github.io/estelaHair/" target="_blank" style="color:#0000EE;text-decoration: underline"> Site para Salão de beleza  </a><br><br>
+	       	<a href="https://gittmau.github.io/carros.com/" target="_blank" style="color:#0000EE;text-decoration: underline"> Site para venda de carros</a> <br><br>
+	       	<a href="https://gittmau.github.io/email-marketing/" target="_blank" style="color:#0000EE;text-decoration: underline"> email-marketing </a> <br> <br>
+	       	
+	       	<a href="https://www.estudiozano.com.br/" target="_blank" style="color:#0000EE;text-decoration: underline;"> Manutenção de site para Estudio Zano </a>
+	       
+
+	       </td>
+	  </tr>
+      
+
+
+        <tr>
+	       <td align="center"> <p style="font-weight: bold;color:#999;font-size:0.8em;">MAURICIO - 2025</p> </td>
+	  </tr>
+    </table>
+</center>
+
+
+
+<script>
+
+	   var boxCarregamento = document.querySelector('#box-loading')
+	   var boxContainer = document.querySelector('.container')
+       
+       function carregaPage(){
+
+       	  boxCarregamento.style.display ='none'
+       	  boxContainer.style.display ='block'
+       }
+</script>
+
+</body>
+</html>
